@@ -1,0 +1,208 @@
+h1{
+    text-align: center; 
+    color:white;  
+    text-transform: uppercase;
+    /*background-color: blanchedalmond ; */
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    .title{
+        text-align: center; 
+    color:blue;  
+    text-transform: uppercase;
+    background-color: blanchedalmond ;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+
+   #specialTitle{
+        text-align: center; 
+    color:aqua;  
+    text-transform: uppercase;
+    background-color: blanchedalmond ;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+
+    body {
+       /* background-image: url(https://www.fue.edu.eg/ImageHandler.ashx?Id=6429&SS=7236ec28809dbdd72855fd7784ae9d01);*/
+        background-repeat: no-repeat;
+        background-size: contain; 
+        background-position: initial;
+    }
+
+    .signin {
+        background-image: url(https://www.fue.edu.eg/ImageHandler.ashx?Id=6429&SS=7236ec28809dbdd72855fd7784ae9d01);
+        margin: 0;
+        padding: 0;
+         background-repeat: no-repeat;
+         background-size: cover; 
+         background-position: center;
+     }
+
+    ul{
+        list-style-type: none;
+        border: 1px solid #e7e7e7;
+        background-color: lightblue;
+        overflow: hidden;
+        padding: 0px;
+        margin:  0px;
+
+        
+    }
+    li{
+        float: left;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: blueviolet;
+
+        
+    }
+
+    li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+       
+        
+    }
+
+    li a:hover{
+        background-color: lightyellow;
+    }
+
+
+    .nav-right{
+        float: right;
+    }
+
+    
+    li  a.active{
+
+        background-color: turquoise;
+        color:white;
+    }
+
+    div{
+        border:  3px solid; 
+        border-radius: 15px ;
+        border-style:double;
+        box-shadow: 0px 0px 0px plum;
+        background-image: linear-gradient(pink,aqua);
+        
+        
+    }
+
+    table{
+
+        width: 100%;
+        border: 1px solid;
+        border-collapse: collapse;
+
+    }
+    thead tr{
+        text-align: center;
+    }
+
+    thead{
+        background-color: teal;
+        color: white;
+    }
+
+    tr:nth-child(even)
+    {
+        background-color: silver;
+    }
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:8px 20px;
+	text-decoration:none;
+	text-shadow:3px -2px 8px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.loginbox{
+    text-align: left; 
+    width: 350px;
+    height: 450px;
+    background:rgba(0, 0, 0,0.9);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+    
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px)
+}
+
+.loginbox p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.loginbox input{
+    width: 100%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.Signinn{
+    text-align: center; 
+color:white;  
+text-transform: uppercase;
+background-color:rgba(0, 0, 0, 0.9) ;
+font-size: 28px;
+font-family: Arial, Helvetica, sans-serif;
+}
