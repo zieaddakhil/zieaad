@@ -7,7 +7,7 @@
          background-size: cover; 
          background-position: center;
      }
-     
+
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
 	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
@@ -89,3 +89,13 @@ background-color:rgba(0, 0, 0, 0.9) ;
 font-size: 28px;
 font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    text-align: center; 
+    color:white;  
+    text-transform: uppercase;
+    /*background-color: blanchedalmond ; */
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
